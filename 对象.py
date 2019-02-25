@@ -23,6 +23,4 @@ if __name__ == '__main__':
      my_dog.sit()
      my_dog.update(22,'qqq')
      print(my_dog.name.title()+' '+str(my_dog.age))
-
-
-
+     print
