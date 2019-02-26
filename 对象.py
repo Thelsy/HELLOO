@@ -17,7 +17,6 @@ class Dog():
     def update(self,mo,st):
         self.age = mo
         self.name = st
-
 if __name__ == '__main__':
      my_dog = Dog(18,'wwww')
      my_dog.sit()
