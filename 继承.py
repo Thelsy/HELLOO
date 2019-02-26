@@ -14,4 +14,8 @@ class Car():
     def print(self):
         print(self.engine +":"+self.gasoline)
 if __name__ == '__main__':
-    Car('德国','三星').print();
+    update = Car('德国','三星')
+    update.print()
+    update.engineAsy('日本')
+    update.print()
+
