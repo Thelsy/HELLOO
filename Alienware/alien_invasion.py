@@ -17,7 +17,7 @@ def run():
     # 设置窗口标题
     pygame.display.set_caption("飞机大战")
     # 创建飞船
-    ship = Ship(screen)
+    ship = Ship(screen, ai)
     while True:
         gh.check_events(ship)
         ship.update()
